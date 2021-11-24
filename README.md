@@ -34,7 +34,7 @@ Services it will endorse :
 - Doctors Appointment
 - Virtual Health Checkup
 
-Additional features include one to one virtual consultation, health monitoring, integrated medicines and expiry tracker etc.
+Additional features include one to one virtual consultation, health monitoring, diseases prediction, integrated medicines and expiry tracker etc.
 
 
  <h2>🙌Join Here</h2>

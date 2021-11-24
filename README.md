@@ -15,9 +15,10 @@
 
 <h2>📌Repository</h2>
 
-MedFlare is a complete parking management system applying smart solutions for short time rental of empty spaces (Parking, Apartment, Office Spaces etc). This website is designed to helps users find safe, affordable and low cost parking to get rest easy while on a hustle.
+MedFlare is a one stop solution for people who likes to get all the medical aid so that situations are answered promptly without any delay. This would help in saving out many lives especially in hassle conditions. 
 
-This is a most prominent trouble especially in metropolitan and tier-1 cities where vehicles are used at maximum potential in their daily lives. With no space to park their vehicles, it's evitable to have seen or prone to careless parking on roads or unauthorized places which disrupts the smooth flow of passages for society.
+We have seen how Covid had taken a toll over patients and how problems aren't addressed appropriately in emergencies due to which many lives have been parallely impacted. 
+This app would have wide scope of services that you can benefit out of with solutions and stay safe by virtual solutions. Saying : Health is Wealth.
 
 
 <h2>✔Features</h2>

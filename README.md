@@ -33,6 +33,7 @@ Services it will endorse :
 - Organ Donors Availability
 - Doctors Appointment
 - Virtual Health Checkup
+- Ambulance Booking
 
 Additional features include one to one virtual consultation, health monitoring, diseases prediction, integrated medicines and expiry tracker etc.
 

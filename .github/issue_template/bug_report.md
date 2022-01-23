@@ -9,6 +9,7 @@ Assignee: ''
 
 Define You:
 
+- [ ] JWOC Participant
 - [ ] Contributor
 
 

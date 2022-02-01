@@ -1,0 +1,42 @@
+
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(28, 118, 160);
+    padding: 30px;
+    color: #fff;
+}
+
+.navbar span{
+    font-size: 1.8rem;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left:70%;
+}
+
+.navbar ul li{
+    display: inline-flex;
+    margin: 5px;
+    float: left;
+    
+}
+
+.navbar ul li a{
+    font-size: 1.2rem;
+    display: block;
+    text-decoration: none;
+    color: rgb(241, 234, 234);
+    padding: 0 10px;
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color: rgb(189, 229, 245);
+}

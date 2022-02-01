@@ -1,11 +1,11 @@
+import About from './components/About/About';
 
-
-import './App.css';
+import classes from "./App.module.css";
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className={classes.App}>
+      <About />
     </div>
   );
 }

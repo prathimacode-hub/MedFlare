@@ -1,8 +1,6 @@
 
 import classes from "./About.module.css";
 
-// import doc from "./images/doc-img.jpg";
-
 function About(){
 
     return(

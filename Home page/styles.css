@@ -1,0 +1,88 @@
+
+body{
+  overflow-x: hidden;
+  margin: 20px 50px;
+  padding: 10px 30px;
+  color: rgb(37, 36, 36);
+}
+
+.about{
+  margin: 30px 0;
+  padding: 10px 20px;
+
+}
+.about h1{
+  border-bottom: 2px solid rgb(24, 147, 230);
+  padding: 10px 0;
+    
+}
+
+.about img{
+  width: 600px;
+}
+
+.details{
+    margin: 30px 0;
+    color: #333;
+  }
+
+.services{
+  margin: 30px 0;
+  padding: 10px 20px;
+
+
+}
+
+.services h1{
+  border-bottom: 2px solid rgb(24, 147, 230);
+  padding: 10px 0;
+    
+}
+
+.services .card{
+  background-color: #fff;
+  margin: 20px 0;
+  text-align: center;
+  border: 2px solid rgb(8, 153, 189);
+  border-radius: 15px;
+  box-shadow: 0 5px 8px rgb(168, 161, 161);
+  color:  rgb(6, 54, 87);
+}
+
+.services .card p{
+  color: rgb(127, 200, 218);
+}
+.services .card:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 8px 5px rgb(99, 99, 99);
+}
+
+.services img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 3px dotted  rgb(8, 75, 119) ;
+}
+
+.why-us{
+  margin: 30px 0;
+  padding: 10px 20px;
+
+}
+.why-us h1{
+  border-bottom: 2px solid rgb(24, 147, 230);
+  padding: 10px 0;
+    
+}
+
+.why-us img{
+  width: 500px;
+  border-radius: 5px;
+}
+
+@media (min-width:400) {
+  .about img{
+    width: 150px;
+  }
+}

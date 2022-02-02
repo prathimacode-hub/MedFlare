@@ -109,6 +109,8 @@ This project was a part of these open source programs.
 </tr>
 </table>
 
+You can check out your scores here : [JWOC-ScoreSheet](https://github.com/prathimacode-hub/MedFlare/blob/main/.github/JWOC_SCORECARD.md)
+
 
 <h2>✨Hall Of Fame</h2>   
 

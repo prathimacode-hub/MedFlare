@@ -131,6 +131,110 @@ header{
 }
 /***************** Header and navbar ends *************** */
 
+/* ******************* Carousal starts ********************* */
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  width: 85%;  
+}
+.slideshow-container > a{
+  text-decoration: none;
+}
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text{
+  font-size: 22px;
+  font-weight: 600;
+  padding: 8px 12px;
+  margin-left: 3rem;
+  position: absolute;
+  top: 30%;
+  width: 30%;
+  text-align: start;
+}
+
+.slideshow-container .mySlides:nth-child(even) .text
+{
+  right: 5%;
+}
+
+.carousel-header{
+  font-size: 35px;
+  font-weight: 600;
+  padding: 8px 12px;
+  margin-left: 3rem;
+  position: absolute;
+  top: 10%;
+  width: 30%;
+  text-align: start;
+}
+
+.slideshow-container .mySlides:nth-child(even) .carousel-header{
+  right: 5%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.mySlides button {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.8rem 2.5rem;
+  background-color: #3d70fd;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mySlides button:hover{
+  background-color: #2252d6;
+}
+
+/* ******************* Carousal ends ********************* */
+
 .about{
   margin: 30px 0;
   padding: 10px 20px;

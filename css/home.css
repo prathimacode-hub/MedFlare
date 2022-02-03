@@ -8,7 +8,7 @@ body{
 /***************** Header and navbar starts *************** */
 nav::before{
   content: "";
-  background: url("/images/nav-background.png");
+  background: url("../assets/images/nav-background.png");
   position: absolute;
   top: -4rem;
   left: 0;

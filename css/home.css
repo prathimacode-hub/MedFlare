@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Prompt:wght@300&display=swap');
 
 body{
   overflow-x: hidden;
@@ -89,7 +90,9 @@ header{
 }
 
 .header-text{
-  width: 90%;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  width: 80%;
   padding-left: 5rem;
 }
 

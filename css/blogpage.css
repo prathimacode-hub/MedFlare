@@ -8,6 +8,9 @@
     margin: 12px;
     border-bottom: blue solid 1px;
 }
+.paragraph{
+    margin: 12px;
+}
 .card-container{
     width: 300px;
     border-radius: 2em;

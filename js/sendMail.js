@@ -3,7 +3,7 @@ function sendEmail(recvEmail, data) {
 
     Email.send({
         Host: "smtp.mailtrap.io",
-        Username: "YOUR USERID HERE",
+        Username: "YOUR USERNAME HERE",
         Password: "YOUR PASSWD HERE",
         To: recvEmail,
         From: "sender email",

@@ -1,8 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Bed Availability Notification
-        </title>    
-    </head>
+
+<head>
+    <title>Bed Availability Notification</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../js/sendMail.js"></script>
+    <link rel="stylesheet" href="../css/bed.css">
+</head>
+
+<body>
+    <img src="../assets/images/bed availability notification.png"><br />
+
+    City: <input type="text" id="City">
+    Email: <input type="text" id="Email">
+    <input type="submit" id="submitButton" value="Submit">
+
+    <script>
+        document.getElementById('submitButton').addEventListener('click', fetchUserData);
+
+        function fetchUserData() {
+            const url = "https://api.rootnet.in/covid19-in/hospitals/medical-colleges";
+            fetch(url)
+                .then(response => response.json())
+                .then(json => {
+                    const prefCity = document.getElementById('City').value;
+                    const recvEmail = document.getElementById('Email').value;
+                    var Beds = '<html>';
+
+                    for (let x of json.data.medicalColleges) {
+                        if (x.city === prefCity) {
+                            Beds += '<h3>' + x.name + '</h3>HospitalBeds: ' + x.hospitalBeds + '<br/>';
+                        }
+                    }
+                    Beds += '</html>';
+                    console.log(Beds);
+                    sendEmail(recvEmail, Beds);
+                })
+        }        
+    </script>
+</body>
+
 </html>

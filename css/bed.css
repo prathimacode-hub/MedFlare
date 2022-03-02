@@ -1,0 +1,23 @@
+body {
+    background-color: #76AFEC;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=submit] {
+    width: 90%;
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin: 8px 0 0 25px;
+    font-size: 20px;
+}

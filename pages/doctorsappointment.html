@@ -101,9 +101,9 @@
             <h3><u>Medical Information</u></h3> <br>
             <div class="box">
                 <label for="previous">Have you previously attended our facility?</label><br>
-                <input type="radio" name="attended-facility" id="">
+                <input type="radio" name="attended-facility" id="attendedYes">
                 <label for="">Yes</label>
-                <input type="radio" name="attended-facility" id="">
+                <input type="radio" name="attended-facility" id="attendedNo">
                 <label for="">No</label>
             </div>
             <br>
@@ -118,20 +118,20 @@
                     <label for="status">Appointment Status/Urgency</label>
                     <select name="status" id="status">
                         <option value="">Status of Appointment</option>
-                        <option value="">Routine check-up</option>
-                        <option value="">Non-urgent medical check-up</option>
-                        <option value="">Urgent medical check-up</option>
-                        <option value="">Surgical Appointment</option>
+                        <option value="routine">Routine check-up</option>
+                        <option value="non-urgent">Non-urgent medical check-up</option>
+                        <option value="urgent">Urgent medical check-up</option>
+                        <option value="surgical">Surgical Appointment</option>
                     </select>                    
                 </div>
                 <div class="box-box">
                     <label for="">Appintment Treatment Type</label>
                     <select name="appointment-type" id="appointment-type">
                         <option value="">Select treatment type</option>
-                        <option value="">Neurological Treatment</option>
-                        <option value="">Cardiovascular Treatment</option>
-                        <option value="">Respiratory Treatment</option>
-                        <option value="">Cosmetic Treatment</option>
+                        <option value="Neurological">Neurological Treatment</option>
+                        <option value="Cardiovascular">Cardiovascular Treatment</option>
+                        <option value="Respiratory">Respiratory Treatment</option>
+                        <option value="Cosmetic">Cosmetic Treatment</option>
                     </select>
                 </div>
             </div>
@@ -149,6 +149,7 @@
             <input type="submit" value="Request Appointment">
         </form>
     </div>
+    <script src="../js/doctorappointment.js"></script>
 </body>
 
 </html>

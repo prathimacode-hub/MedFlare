@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="../css/doctorappointment.css">
+    <title>Doctor's Appointment</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="appointmentForm">
+            <h2>Doctor's Appointment Form</h2> <br><br><br>
+            <h3> <u>Patient Information</u> </h3><br>
+            <label for="name">Patient Name</label>
+            <div class="box">
+                <select name="title" id="title">
+                    <option value="">Title</option>
+                    <option value="mr">Mr</option>
+                    <option value="mrs">Mrs</option>
+                    <option value="miss">Miss</option>
+                </select>
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+            </div>
+            <div class="box">
+                <div class="box-box">
+                    <label for="date">Patient Date of Birth</label> <br>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div class="box-box">
+                    <label for="gender">Patient Gender</label> <br>
+                    <select name="gender" id="gender">
+                        <option value="">Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                        <option value="">Prefer not to say</option>
+                    </select>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-box">
+                    <label for="email">Patient Email</label> <br>
+                    <input type="email" name="email" id="email" placeholder="example@abc.com">
+                </div>
+                <div class="box-box">
+                    <label for="phone">Patient Phone number</label> <br>
+                    <input type="tel" name="phone" id="phone" placeholder="### ### ####">
+                </div>
+            </div>
+            <label for="address">Patient Address </label> <br>
+            <input type="text" name="street" id="street" placeholder="Street Address">
+            <div class="box">
+                <input type="text" name="city" id="city" placeholder="City">
+                <select id="state" name="state">
+                    <option value="">State</option>
+                    <option value="AN">Andaman and Nicobar Islands</option>
+                    <option value="AP">Andhra Pradesh</option>
+                    <option value="AR">Arunachal Pradesh</option>
+                    <option value="AS">Assam</option>
+                    <option value="BR">Bihar</option>
+                    <option value="CH">Chandigarh</option>
+                    <option value="CT">Chhattisgarh</option>
+                    <option value="DN">Dadra and Nagar Haveli</option>
+                    <option value="DD">Daman and Diu</option>
+                    <option value="DL">Delhi</option>
+                    <option value="GA">Goa</option>
+                    <option value="GJ">Gujarat</option>
+                    <option value="HR">Haryana</option>
+                    <option value="HP">Himachal Pradesh</option>
+                    <option value="JK">Jammu and Kashmir</option>
+                    <option value="JH">Jharkhand</option>
+                    <option value="KA">Karnataka</option>
+                    <option value="KL">Kerala</option>
+                    <option value="LA">Ladakh</option>
+                    <option value="LD">Lakshadweep</option>
+                    <option value="MP">Madhya Pradesh</option>
+                    <option value="MH">Maharashtra</option>
+                    <option value="MN">Manipur</option>
+                    <option value="ML">Meghalaya</option>
+                    <option value="MZ">Mizoram</option>
+                    <option value="NL">Nagaland</option>
+                    <option value="OR">Odisha</option>
+                    <option value="PY">Puducherry</option>
+                    <option value="PB">Punjab</option>
+                    <option value="RJ">Rajasthan</option>
+                    <option value="SK">Sikkim</option>
+                    <option value="TN">Tamil Nadu</option>
+                    <option value="TG">Telangana</option>
+                    <option value="TR">Tripura</option>
+                    <option value="UP">Uttar Pradesh</option>
+                    <option value="UT">Uttarakhand</option>
+                    <option value="WB">West Bengal</option>
+                </select>
+            </div> <br>
+            <br> <br>
+            <h3><u>Medical Information</u></h3> <br>
+            <div class="box">
+                <label for="previous">Have you previously attended our facility?</label><br>
+                <input type="radio" name="attended-facility" id="attendedYes">
+                <label for="">Yes</label>
+                <input type="radio" name="attended-facility" id="attendedNo">
+                <label for="">No</label>
+            </div>
+            <br>
+            <label for="if-yes">If Yes, Patient Medical Condition/History</label> <br>
+            <div class="box">
+                <textarea name="history" id="history" cols="65" rows="10"></textarea>
+            </div>
+            <br>
+            <h3><u>Appointment Details</u></h3> <br>
+            <div class="box">
+                <div class="box-box">
+                    <label for="status">Appointment Status/Urgency</label>
+                    <select name="status" id="status">
+                        <option value="">Status of Appointment</option>
+                        <option value="routine">Routine check-up</option>
+                        <option value="non-urgent">Non-urgent medical check-up</option>
+                        <option value="urgent">Urgent medical check-up</option>
+                        <option value="surgical">Surgical Appointment</option>
+                    </select>                    
+                </div>
+                <div class="box-box">
+                    <label for="">Appintment Treatment Type</label>
+                    <select name="appointment-type" id="appointment-type">
+                        <option value="">Select treatment type</option>
+                        <option value="Neurological">Neurological Treatment</option>
+                        <option value="Cardiovascular">Cardiovascular Treatment</option>
+                        <option value="Respiratory">Respiratory Treatment</option>
+                        <option value="Cosmetic">Cosmetic Treatment</option>
+                    </select>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-box">
+                    <label for="">Appointment Date</label> <br>
+                    <input type="date" name="" id="appointment-date">
+                </div>
+                <div class="box-box">
+                    <label for="appointment-time">Time of Appointment</label>    <br>
+                    <input type="time" name="" id="appointment-time">   
+                </div>
+            </div>
+            <br>
+            <input type="submit" value="Request Appointment">
+        </form>
+    </div>
+    <script src="../js/doctorappointment.js"></script>
+</body>
+
+</html>

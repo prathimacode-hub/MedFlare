@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-<img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/CoverPhotos/MedFlare.png"></a>
+<img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Cover%20Photos/MedFlare.png"></a>
 </p>
 
 <p align="center">
@@ -98,7 +98,7 @@ Subsequently, also go through the GitHub documentation on [creating a pull reque
 <table>
 <tr>
  <td align="center">
-<a href="https://jwoc.tech/"><img src="" width=100px height=100px /><br /><sub><b>JGEC Winter Of Code</b></sub></a>
+<a href="https://jwoc.tech/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/JGEC%20Winter%20Of%20Code%202022/JGEC-Winter-Of-Code.jpg" width=100px height=100px /><br /><sub><b>JGEC Winter Of Code</b></sub></a>
  </td>
 </tr>
 </table>
@@ -140,7 +140,7 @@ This project follows the [General Public License 3.0](https://github.com/prathim
 
 <table>
   <tr>
-<td align="center"><a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Prathima%20updated%20profile%20pic.jpg" width="80px;" alt=""/><br /><sub><b>Prathima Kadari</b></sub></a></td>
+<td align="center"><a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Profile%20Assets/Prathima-Kadari-Picture.png" width="100px;" alt=""/><br /><sub><b>Prathima Kadari</b></sub></a></td>
   </tr>
 </table>
 

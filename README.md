@@ -97,11 +97,11 @@ Subsequently, also go through the GitHub documentation on [creating a pull reque
 
 <table>
 <tr>
- <td align="center">
-<a href="https://jwoc.tech/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/JGEC%20Winter%20Of%20Code%202022/JGEC-Winter-Of-Code.jpg" width=100px height=100px /><br /><sub><b>JGEC Winter Of Code</b></sub></a>
+<td align="center">
+<a href="https://hacktoberfest.com/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/Hacktoberfest%202022/Hacktoberfest%20Logo%202022.png" width=140px height=100px /><br /><sub><b>Hacktoberfest 2022</b></sub></a>
  </td>
  <td align="center">
-<a href="https://hacktoberfest.com/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/Hacktoberfest%202022/Hacktoberfest%20Logo%202022.png" width=140px height=100px /><br /><sub><b>Hacktoberfest 2022</b></sub></a>
+<a href="https://jwoc.tech/"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/JGEC%20Winter%20Of%20Code%202022/JGEC-Winter-Of-Code.jpg" width=100px height=100px /><br /><sub><b>JGEC Winter Of Code</b></sub></a>
  </td>
 </tr>
 </table>

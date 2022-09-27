@@ -15,5 +15,4 @@ HACKTOBERFEST ISN’T ALL ABOUT CODE. ANYONE WHO WRITES, DESIGNS, TESTS, MENTORS
 
 JWoC (JGEC Winter of Code) is a coding event organised annually by JGEC which helps students to plunge into Open Source contribution and get the realm of Software Development.
 
-<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/tree/main/Open%20Source%20Programs/JGEC%20Winter%20Of%20Code%202022
-" width=150px height=150px /></a>
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/JGEC%20Winter%20Of%20Code%202022/JGEC-Winter-Of-Code.jpg" width=150px height=150px /></a>

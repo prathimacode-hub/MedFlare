@@ -18,7 +18,7 @@
 
 ## 📌 Repository
 
-MedFlare is a one stop solution for people who likes to get all the medical aid so that situations are answered promptly without any delay. This would help in saving out many lives especially in hassle conditions. 
+MedFlare is a one stop solution for people who likes to get all the medical aid so that situations are answered promptly without any delay and no mediators. This would help in saving out many lives especially in hassle conditions. 
 
 We have seen how Covid had taken a toll over patients and how problems aren't addressed appropriately in emergencies due to which many lives have been parallely impacted. 
 This app would have wide scope of services that you can benefit out of with solutions and stay safe by virtual solutions. Saying : Health is Wealth.

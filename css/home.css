@@ -139,7 +139,7 @@ header{
   color: #3067FD;
 }
 
-.cta-1:hover{
+.cta-1:hover,  .cta-2:focus, .cta-2:target {
   background-color: #3067FD;
   color: white;
 }
@@ -149,7 +149,7 @@ header{
   color: white;
 }
 
-.cta-2:hover{
+.cta-2:hover, .cta-2:focus, .cta-2:target {
   background-color: white;
   box-shadow: 0px 0px 3px 1px #3067FD inset;
   color: #3067FD;

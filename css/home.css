@@ -291,9 +291,8 @@ header{
 .why-us{
   margin: 30px 0;
   padding: 10px 20px;
-
 }
-.why-us h1{
+.why-us h2{
   border-bottom: 2px solid rgb(24, 147, 230);
   padding: 10px 0;
   margin-top: 1500px;  
@@ -373,3 +372,4 @@ header{
   outline: none;
   border: none;
 }
+

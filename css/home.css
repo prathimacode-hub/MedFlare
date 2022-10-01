@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Prompt:wght@300&display=swap');
 
+
 body{
   overflow-x: hidden;
   position: absolute;
@@ -134,24 +135,24 @@ header{
 
 .cta-1{
   background-color: white;
-  border: 2px solid #3d70fd;
-  color: #3d70fd;
+  border: 2px solid #3067FD;
+  color: #3067FD;
 }
 
-.cta-1:hover{
-  background-color: #3d70fd;
+.cta-1:hover,  .cta-2:focus, .cta-2:target {
+  background-color: #3067FD;
   color: white;
 }
 
 .cta-2{
-  background-color: #3d70fd;
+  background-color: #3067FD;
   color: white;
 }
 
-.cta-2:hover{
+.cta-2:hover, .cta-2:focus, .cta-2:target {
   background-color: white;
-  box-shadow: 0px 0px 3px 1px #3d70fd inset;
-  color: #3d70fd;
+  box-shadow: 0px 0px 3px 1px #3067FD inset;
+  color: #3067FD;
 }
 /***************** Header and navbar ends *************** */
 
@@ -269,10 +270,10 @@ header{
   padding: 10px 20px;
 
 }
-.about h1{
+.about h2{
   border-bottom: 2px solid rgb(24, 147, 230);
   padding: 10px 0;
-    
+  font-size: 2.5rem; 
 }
 
 .about img{
@@ -290,9 +291,8 @@ header{
 .why-us{
   margin: 30px 0;
   padding: 10px 20px;
-
 }
-.why-us h1{
+.why-us h2{
   border-bottom: 2px solid rgb(24, 147, 230);
   padding: 10px 0;
   margin-top: 1500px;  
@@ -372,3 +372,4 @@ header{
   outline: none;
   border: none;
 }
+

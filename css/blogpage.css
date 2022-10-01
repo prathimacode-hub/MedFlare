@@ -18,6 +18,7 @@
     display: block;
     float: left;
     border:1px solid;
+    transition: 300ms all ease-in-out;
 }
 .card-container:hover{
     box-shadow: 1px 1px 2px gray;

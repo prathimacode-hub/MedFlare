@@ -145,6 +145,9 @@ This project follows the [General Public License 3.0](https://github.com/prathim
   <tr>
 <td align="center"><a href="https://github.com/"><img src="" width="100px;" alt=""/><br /><sub><b>Yash Kataria</b></sub></a></td>
   </tr>
+  <tr>
+<td align="center"><a href="https://github.com/"><img src="" width="100px;" alt=""/><br /><sub><b>Rishika Vishnoi</b></sub></a></td>
+  </tr>
 </table>
 
 

@@ -269,10 +269,10 @@ header{
   padding: 10px 20px;
 
 }
-.about h1{
+.about h2{
   border-bottom: 2px solid rgb(24, 147, 230);
   padding: 10px 0;
-    
+  font-size: 2.5rem; 
 }
 
 .about img{

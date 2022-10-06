@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+    margin: 0px;
+    letter-spacing: .5px;
+    overflow-y: hidden;
+}
+header{
+  background-image: linear-gradient(to left, #1e9ad7, #00acde, #00bddf, #00cedb, #3399dd);
+height: 120px;
+    width: 100%;
+   box-shadow: 0px 0px 10px 0px #21a0fb;
+   
+}
+header h1{
+    position: relative;
+    top: 15%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #fff;
+    text-align: center;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    width: 40%;
+    padding: 40px;
+    margin:0px 40px;
+    position: relative;
+    top: 70px;
+    left: 1.5%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow:  10px 10px 6px #f8f1f1,
+    -1px -1px 60px #dcfdfd;
+}
+
+form input{
+    height: 30px;
+    padding: 2px;
+    text-indent: 4px;
+}
+form input:focus{
+    outline: none;
+    border: 1px solid #1ecce3;
+}
+form #bookNow{
+    height: 40px;
+    background: #1bc0da;
+    
+    color: #fff;
+    cursor: pointer;
+
+}
+form #bookNow:hover{
+    background: #12d0f6;
+    color: rgb(236, 224, 224);
+    transition: 0.5s;
+    
+}
+lottie-player{
+    position: relative;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow:  10px 10px 6px #f8f1f1,
+                -1px -1px 60px #dcfdfd;
+    left: 770px;
+    margin-right: 40px;
+    bottom: 400px;
+    box-sizing: border-box;
+    height: 400px;
+    width: 42%;
+}
+
+@media screen and (max-width: 1008px){
+    form{
+        width: 80%;
+    }
+    lottie-player{
+        display: none;
+    }
+}

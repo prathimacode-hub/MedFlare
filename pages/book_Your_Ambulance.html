@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Ambulance</title>
+    <link rel="stylesheet" href="../css/book_Your_Ambulance.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+  
+
+</head>
+
+<body>
+    <header>
+        <h1>Book Your Ambulance</h1>
+
+    </header>
+    <form onsubmit="sendEmail(); reset(); return false;">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter Your Name" required>
+
+        <br>
+
+        <label for="symptoms">Symptoms</label>
+        <input type="text" name="symptoms" id="symptoms" placeholder="Symptoms you're facing">
+
+        <br>
+
+        <label for="location">Address/Location</label>
+        <input type="text" name="location" id="location" placeholder="Auto-Detecting Your Location" required>
+
+        <br>
+
+        <label for="phone">Phone no</label>
+        <input type="number" name="phone" id="phone" placeholder="Enter Your Phone no." required>
+
+        <br>
+
+        <label for="email">Email ID</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email ID">
+
+        <br>
+
+        <!-- Place for Nearby/Neares Hospitals -->
+
+        <input type="submit" name="submit" id="bookNow" value="Book Now">
+    </form>
+
+    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_jol43osd.json" background="#FFFFFF" speed="1"
+        class="animation_ambulance" loop autoplay></lottie-player>
+
+    <!-- SMTP JS for sending invoice -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            console.log("Sending Email");
+            Email.send({
+                SecureToken: "87a6e2e8-a1bf-4ce7-95fb-4e0a49f473f7",
+                To:  document.getElementById("email").value,
+
+                From: 'sahuankit453@gmail.com',
+
+        //Put The Netflare Official Email ID Here 👆🏻 (registered with Elastic Email)
+
+                Subject: "Invoice for Ambulance Booking",
+                Body: "Hello " + document.getElementById("fname").value + "\n Your Ambulance is Booked. We will reach you soon at " + document.getElementById("location").value + " \nThank You for Choosing Us."
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
+    <script src="../js/book_Your_Ambulance.js"></script>
+</body>
+
+</html>

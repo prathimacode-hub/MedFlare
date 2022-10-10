@@ -139,7 +139,7 @@ You can find our Code of Conduct [here](https://github.com/prathimacode-hub/MedF
 This project follows the [General Public License 3.0](https://github.com/prathimacode-hub/MedFlare/blob/main/LICENSE).
 
 
-## 😎 Hacktoberfest Mentor
+## 😎 Hacktoberfest Mentors
 
 <table>
   <tr>

@@ -11,7 +11,7 @@ body{
 /***************** Header and navbar starts *************** */
 nav::before{
   content: "";
-  background: url("../assets/images/nav-background.png");
+  background: url("images/nav-background.png");
   position: absolute;
   left: 0;
   width: 100%;
@@ -295,7 +295,6 @@ header{
 .why-us h2{
   border-bottom: 2px solid rgb(24, 147, 230);
   padding: 10px 0;
-  margin-top: 1500px;  
 }
 
 .why-us img{

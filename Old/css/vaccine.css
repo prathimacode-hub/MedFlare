@@ -52,7 +52,7 @@ body > .container {
 
 nav::before{
   content: "";
-  background: url("../assets/images/nav-background.png");
+  background: url(".images/nav-background.png");
   position: absolute;
   left: 0;
   width: 100%;

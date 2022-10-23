@@ -5,7 +5,7 @@
 
 .container::before{
     content: '';
-    background: url("../assets/images/appointment.jpg") center center/cover;
+    background: url(".images/appointment.jpg") center center/cover;
     position: absolute;
     top: 0;
     left: 0;

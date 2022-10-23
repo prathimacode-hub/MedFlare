@@ -1,98 +1,124 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Bed Availability Notification</title>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="../js/sendMail.js"></script>
-    <link rel="stylesheet" href="../css/bed.css">
-</head>
+    <link rel="stylesheet" href="../css/bed.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<body>
-
+  <body>
     <div class="row">
-        <div class="column">
-            <img src="../assets/images/bed availability notification.png" alt=""><br />
-        </div>
+      <div class="column">
+        <img src=".images/bed availability notification.png" alt="" />
+      </div>
 
-        <div class="column">
-            <form action="" id="regester" method="post">
-                <h2>Bed Availability Notification Form</h2>
+      <div class="column">
+        <form action="" id="regester" method="post">
+          <h2>Bed Availability Notification Form</h2>
 
-                <label for="">First Name :</label>
-                <br>
-                <input type="text" id="name" placeholder="Enter your full name">
-                <br>
-                <label for="">User Name :</label>
-                <br>
-                <input type="text" id="username" placeholder="Enter your user name">
-                <br>
-                <label for="">Email :</label><br>
-                <input type="email" id="email" placeholder="abcdef@gamil.com">
-                <br>
-                <label for="">Phone Number :</label><br>
-                <input type="number" id="phone" placeholder="Enter your phone number">
-                <br>
-                <label for="">Password :</label><br>
-                <input type="password" id="pass" placeholder="Enter your password">
-                <br>
-                <label for="">City :</label><br>
-                <input type="text" id="city" placeholder="Enter your preferred city (e.g. Indore)">
-                <br>
+          <div class="row_of_form">
+            <label for="">First Name :</label>
+            <input type="text" id="name" placeholder="Enter your full name" />
+          </div>
 
-                <label for="">Gender :</label><br>
-                <input name="Gender" type="radio" value="Male"> Male <input name="Gender" type="radio"
-                    value="Female">Female
-                <input name="Gender" type="radio" value="Others">Others
-                <br><br>
-                Select Blood Group : <br>
+          <div class="row_of_form">
+            <label for="">User Name :</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Enter your user name"
+            />
+          </div>
 
-                <input name="Blood Group" list="blood group" placeholder="Blood Group">
-                <datalist id="blood group">
-                    <option>A Positive</option>
-                    <option>A Negative</option>
-                    <option>B Positive</option>
-                    <option>B Negative</option>
-                    <option>AB Positive</option>
-                    <option>AB Negative</option>
-                    <option>O Positive</option>
-                    <option>O Negative</option>
-                    <option>Unknown</option>
-                </datalist>
-                <br><br>
-            </form>
-            <input type="submit" value="Submit" id="submitButton" onclick="fetchBedData()">
-        </div>
+          <div class="row_of_form">
+            <label for="">Email :</label>
+            <input type="email" id="email" placeholder="abcdef@gamil.com" />
+          </div>
+
+          <div class="row_of_form">
+              <label for="">Phone Number :</label>
+              <input type="number" id="phone" placeholder="Enter your phone number"/>
+          </div>
+
+          <div class="row_of_form">
+              <label for="">Password :</label>
+              <input type="password" id="pass" placeholder="Enter your password" />
+          </div>
+
+          <div class="row_of_form">
+              <label for="">City :</label>
+              <input type="text" id="city" placeholder="Enter your preferred city (e.g. Indore)"/>
+          </div>
+
+          <div class="row_of_form">
+              <label for="">Gender :</label>
+              <div class="radio_button_div">
+                  <input name="Gender" type="radio" value="Male"/> Male
+            </div>
+              <div class="radio_button_div">
+                  <input name="Gender" type="radio" value="Female"/>Female
+            </div>
+              <div class="radio_button_div">
+                  <input name="Gender" type="radio" value="Others"/>Others
+            </div>
+          </div>
+
+          <div class="row_of_form">
+              Select Blood Group : <input name="Blood Group" list="blood group" placeholder="Blood Group"/>
+              <datalist id="blood group">
+                <option>A Positive</option>
+                <option>A Negative</option>
+                <option>B Positive</option>
+                <option>B Negative</option>
+                <option>AB Positive</option>
+                <option>AB Negative</option>
+                <option>O Positive</option>
+                <option>O Negative</option>
+                <option>Unknown</option>
+              </datalist>
+          </div>
+        </form>
+        <input type="submit" value="Submit" id="submitButton" onclick="fetchBedData()"/>
+      </div>
     </div>
 
     <script>
-        document.getElementById('submitButton').addEventListener('click', fetchBedData);
+      document
+        .getElementById("submitButton")
+        .addEventListener("click", fetchBedData);
 
-        function fetchBedData() {
-            const form = document.getElementById("regester").elements
-            const url = "https://api.rootnet.in/covid19-in/hospitals/medical-colleges";
-            const prefCity = form.city.value;
-            const recvEmail = form.email.value;
-            console.log(prefCity, recvEmail)
+      function fetchBedData() {
+        const form = document.getElementById("regester").elements;
+        const url =
+          "https://api.rootnet.in/covid19-in/hospitals/medical-colleges";
+        const prefCity = form.city.value;
+        const recvEmail = form.email.value;
+        console.log(prefCity, recvEmail);
 
-            fetch(url)
-                .then(response => response.json())
-                .then(json => {
-                    console.log(json)
+        fetch(url)
+          .then((response) => response.json())
+          .then((json) => {
+            console.log(json);
 
-                    var Beds = '<html>';
+            var Beds = "<html>";
 
-                    for (let x of json.data.medicalColleges) {
-                        if (x.city === prefCity) {
-                            Beds += '<h3>' + x.name + '</h3>HospitalBeds: ' + x.hospitalBeds + '<br/>';
-                        }
-                    }
-                    Beds += '</html>';
-                    console.log(Beds);
-                    sendEmail(recvEmail, Beds);
-                })
-        }        
+            for (let x of json.data.medicalColleges) {
+              if (x.city === prefCity) {
+                Beds +=
+                  "<h3>" +
+                  x.name +
+                  "</h3>HospitalBeds: " +
+                  x.hospitalBeds +
+                  "<br/>";
+              }
+            }
+            Beds += "</html>";
+            console.log(Beds);
+            sendEmail(recvEmail, Beds);
+          });
+      }
     </script>
-</body>
-
+  </body>
 </html>

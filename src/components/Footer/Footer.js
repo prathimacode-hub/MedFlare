@@ -12,7 +12,7 @@ const Footer = () => {
               class="mr-3 h-8"
               alt="FlowBite Logo"
             />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
               MedFlare
             </span>
           </a>

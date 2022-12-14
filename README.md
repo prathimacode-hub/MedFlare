@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Welcome to MedFlare 👋🧰</h1>
-  <h3>Website for MedFlare Project Repo: <a href="https://prathimacode-hub.github.io/MedFlare/">Click Here!</a></h3>
+  <h3>Website for MedFlare Project Application : <a href="https://prathimacode-hub.github.io/MedFlare/">Click Here!</a></h3>
 </div>
 
 <p align="center">

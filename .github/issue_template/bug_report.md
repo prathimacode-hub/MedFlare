@@ -9,7 +9,7 @@ Assignee: ''
 
 Define You:
 
-- [ ] Hacktoberfest Participant
+- [ ] KWOC Participant
 - [ ] Contributor
 
 

@@ -1,8 +1,8 @@
 # Open Source Events
 
-List of Open Source Events in which this project participated.
+List of Open Source Events in which this project participated :
 
-- Innogeeks Winter OF Code 2022
+- Innogeeks Winter OF Code 2023
 
 Step into the world of open-source development and elevate your skills to new heights with the Innogeeks Winter of Code by KIET Group Of Institutions. This online program is specially crafted to introduce new contributors to the fascinating world of open-source software development.
 

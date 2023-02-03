@@ -21,7 +21,7 @@
 MedFlare is a one stop solution for people who likes to get all the medical aid so that situations are answered promptly without any delay and no mediators. This would help in saving out many lives especially in hassle conditions. 
 
 We have seen how Covid had taken a toll over patients and how problems aren't addressed appropriately in emergencies due to which many lives have been parallely impacted. 
-This app would have wide scope of services that you can benefit out of with solutions and stay safe by virtual solutions. Saying : Health is Wealth.
+This app would have wide scope of services that you can benefit out of with solutions virtually and stay safe. Saying : Health is Wealth.
 
 
 ## ✔ Features
@@ -48,7 +48,7 @@ Additional features include one to one virtual consultation, health monitoring, 
 
 ## 🔑 Tech Stacks
 
-Skills : Python, HTML, CSS, JS, Bootstrap, React, Machine Learning
+Skills : HTML, CSS, JavaScript, MongoDB, ExpressJs, React, NodeJs, Machine Learning, Deep Learning
 
 When raising an issue, do make sure to mention the kind of feature, feature title, short description of the feature and how would you expect it to work. As a good practice, always link the issue number with pull request. (#issue number : Give this details when you raise a PR).
 
@@ -60,8 +60,8 @@ Subsequently, also go through the GitHub documentation on [creating a pull reque
 
 ## 🛠 Templates to Follow
 
-- [Feature request](https://github.com/prathimacode-hub/MedFlare/blob/main/.github/issue_template/feature_request.md)
-- [Bug Report](https://github.com/prathimacode-hub/MedFlare/blob/main/.github/issue_template/bug_report.md)
+- [Feature request](https://github.com/prathimacode-hub/MedFlare/blob/main/.github/ISSUE_TEMPLATE/Feature_Request.yaml)
+- [Bug Report](https://github.com/prathimacode-hub/MedFlare/blob/main/.github/ISSUE_TEMPLATE/Bug_Report.yaml)
 - [Pull Request](https://github.com/prathimacode-hub/MedFlare/blob/main/.github/pullrequest_template.md)
 
 **Note** : One should follow these templates while creating a new issue or pull request.

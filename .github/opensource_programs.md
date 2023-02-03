@@ -2,6 +2,13 @@
 
 List of Open Source Events in which this project participated.
 
+- Innogeeks Winter OF Code 2022
+
+Step into the world of open-source development and elevate your skills to new heights with the Innogeeks Winter of Code by KIET Group Of Institutions. This online program is specially crafted to introduce new contributors to the fascinating world of open-source software development.
+
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/Open%20Source%20Programs/Innogeeks%20Winter%20Of%20Code%202022/IWOC%20Logo.png" width=150px height=150px /></a>
+
+
 - Kharagpur Winter Of Code 2022
 
 Kharagpur Winter of Code is a 5-week long online program for students who are new to open source software development. The program not only helps students to get involved in open source, but also prepares them for many open source summer programs; Google Summer of Code being one of them.

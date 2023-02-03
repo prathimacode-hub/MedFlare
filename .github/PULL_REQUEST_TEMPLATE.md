@@ -2,7 +2,7 @@
 
 - Info about the related issue 
 
-- [ ] KWOC Participant
+- [ ] IWOC Participant
 - [ ] Contributor
 
 Closes: #issue number that will be closed through this PR
